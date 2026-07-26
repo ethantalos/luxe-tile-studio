@@ -160,7 +160,7 @@ function Index() {
         <div className="mx-auto grid max-w-7xl gap-8 px-6 py-14 sm:grid-cols-3">
           {highlights.map((item) => (
             <div key={item.title} className="flex flex-col items-start">
-              <div className="grid h-11 w-11 place-items-center rounded-full bg-background text-accent shadow-sm">
+              <div className="grid h-11 w-11 place-items-center rounded-full bg-background text-primary shadow-sm">
                 <item.icon className="h-5 w-5" />
               </div>
               <h3 className="mt-4 font-display text-lg font-semibold text-foreground">{item.title}</h3>
